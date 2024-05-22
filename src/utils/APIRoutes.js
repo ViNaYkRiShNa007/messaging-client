@@ -3,6 +3,7 @@ import axios from "axios";
 
 // const token = useSelector((state) => state.token);
 // console.log(token);
+// New route added
 const API = axios.create({
   baseURL: "http://localhost:3000/",
   // headers: {
