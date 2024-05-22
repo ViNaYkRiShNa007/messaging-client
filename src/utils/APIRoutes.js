@@ -5,7 +5,7 @@ import axios from "axios";
 // console.log(token);
 // New route added
 const API = axios.create({
-  baseURL: "http://localhost:3000/",
+  baseURL: "https://messaging-server.vercel.app/",
   // headers: {
   //   // "auth-token": localStorage.getItem("auth_token"),
   // },
